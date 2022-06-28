@@ -20,31 +20,23 @@ h1 {
 }
 
 .faq {
+    border: 1px solid #9fa4a8;
+    border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 3px 6px rgba(0,0,0,0.1);
     padding: 2rem;
     margin: 20px 0;
     position: relative;
     overflow: hidden;
-    transition: all 0.3s ease-in-out;
+    transition: all 0s ease-in-out;
 }
 
 .faq.active {
     background-color: #c7f5e3fb;
     box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 3px 6px rgi(0, 0, 0, 0.1);
+    padding-bottom: 10px;
 }
 
-.faq.active::before {
-    content: "\f086";
-    font-family: "Font Awesome 5 Free";
-    color: #0010f7fb;
-    font-size: 7rem;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    opacity: .2;
-    z-index: 0;
-}
 
 .faq-title {
     margin: 0 35px 0 0;
